@@ -17,8 +17,15 @@ int calculateSumLoop(int n) {
     return sum;
 }
 
+int calculateSumFormula(int n) {
+    return (n * (n + 1)) / 2;
+}
+
 int main() {
     int n = 50;
+
     cout << "Sum of first 50 natural numbers (loop): " << calculateSumLoop(n) << endl;
+    cout << "Sum using formula n(n+1)/2: " << calculateSumFormula(n) << endl;
+
     return 0;
 }
