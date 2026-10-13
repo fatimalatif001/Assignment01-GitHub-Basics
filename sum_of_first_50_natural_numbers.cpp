@@ -1,3 +1,10 @@
+/*
+ * Program Title: Sum of First 50 Natural Numbers
+ * Name: Ghulam Fatima
+ * Registration Number: L1S24BSCS0217
+ * Assignment Number: Assignment 01
+ */
+
 #include <iostream>
 
 using namespace std;
